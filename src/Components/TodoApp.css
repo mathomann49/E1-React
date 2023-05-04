@@ -1,0 +1,60 @@
+.todoContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+}
+
+.todoCreateForm {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 10px;
+    justify-content: space-between;
+    width: 320px;
+    gap: 3px;
+}
+
+.todoInput {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: solid 1px #999;
+}
+
+.buttonCreate,
+.buttonClear {
+    border: solid 1px black;
+    border-radius: 3px;
+    background-color: #cfbe27;
+    color: #3b2d38;
+    padding: 3px 10px;
+}
+
+.buttonClear {
+    background-color: #f02475;
+}
+
+.todosContainer {
+    display: flex;
+    padding-right: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.todosItem {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #3b2d38;
+    background-color: #f27435;
+    font-size: 20px;
+}
+
